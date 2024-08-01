@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambo&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    border: 0%;
+    font-family: century;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 17px;
+    background-repeat: repeat repeat;
+}
+ul{
+   float: right; 
+   list-style-type: none;
+   margin-top: 30px;
+   min-height: 400px;
+   margin-right: 60px;
+   font-size: 16px;
+}
+ul li{
+    display: inline-block;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 30px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color:orange;
+    color: black;
+}
+ul li.active a{
+    background-color: orange;
+    color: black;
+}
+.logo{
+    height: auto;
+    width: 150px;
+    float: left;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin:9px;
+}
+.logo span{
+    color: orange;
+
+}
+img{
+    height: 50px;
+    width: 70px;
+    float: right;
+}
+.menu{
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top:56%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color:white;
+    font-size: 60px;
+    text-decoration: underline;
+}
+.button{
+    position: absolute;
+    top:54%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    color: white;
+    padding: 4px 20px;
+    border: 1px solid white;
+    transition: 0.5 ease;
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn:hover{
+    color: red;
+    background-color: rgb(244, 236, 236);
+}
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+.menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0,45,117);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+.menu ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+.menu ul li:hover .sub-menu ul li{
+    width:75px;
+    padding: 5px;
+    border-bottom: 1px white;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+}
+.heading{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: wavy var(black);
+    text-decoration-line: underline;
+    padding: 20px;
+}
+#About{
+    font-size: 20px;
+    text-align: center;
+    line-height: 24px;
+}
+#Dessert{
+    font-size: 20px;
+    text-align: center;
+    line-height: 24px;
+    
+}
+#Pasta{
+    font-size: 20px;
+    text-align: center;
+    line-height: 24px;
+    
+}
+#Salad{
+    font-size: 20px;
+    text-align: center;
+    line-height: 24px;
+    
+}
+ .card{
+    box-shadow: 0 4px 8px 0 rgb(176, 22, 22);
+    display: inline-block;
+    padding: 40px 40px;
+    max-width: 354px;
+    margin: 5px;
+    justify-content:space-around;
+    text-align: center;
+    left: 100%;
+    right: 100%;
+    border-left: 30px;
+    border-right: 30px;
+    align-items: center;
+    
+ }
+ .card button{
+    border: none;
+    outline: 0;
+    padding: 6px;
+    color: rgb(11, 11, 11);
+    background-color: orange;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 15px;
+ }
+ .card button:hover{
+    opacity:0.5;
+    color: red;
+    background-color:yellow;
+
+ }
+ .card h3{
+    color: black;
+    font-size: 20px;
+    bottom: 20px;
+ }
+ .card img{
+    height:100%;
+    width: 104%;
+ }
+ .container{
+    display:none;
+    top: 6%;
+    position: relative;
+}
+#OrderNow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   }
+.contactForm{
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    position: relative;
+    top:16%;
+    left:35%;
+    
+    
+}
+.contactForm input,.contactForm textarea{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0 4px 8px 0 rgb(156, 26, 26);
+}
+input::placeholder,textarea::placeholder{
+    font-size: 20px;
+    color: rgb(13, 13, 13);
+}
+.contactForm button{
+    background-color:orange;
+    color:rgb(16, 15, 15);
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    
+}
+.contactForm button:hover{
+    background-color:yellow;
+    color:red;
+    opacity:0.5;
+    align-items: center;
+}
+
+.container ul{
+    position: absolute;
+    
+   
+}
+.menu ul li:hover .container{
+    display: block;
+    position: absolute;
+    background-color:rgba(0,45,117);
+    margin-top: 12px;
+    margin-left: -8px;
+    color: brown;
+}
+.menu ul li:hover .container ul{
+    display: block;
+    margin: 6px;
+}
+.menu ul li:hover .container ul li{
+    width:75px;
+    padding: 5px;
+    border-bottom: 1px white;
+    background: transparent;
+    transition: 0.5 ease;
+    text-align: left;
+    border-radius: 0px;
+}
+footer{
+    background-color:rgb(223, 184, 110);
+    color: black;
+    font-size: 12px;
+    align-items: center;
+    padding: 7px 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+

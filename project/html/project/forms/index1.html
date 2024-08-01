@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licence Registration Form</title>
+</head>
+<body>
+    <h1>License Registration Form</h1>
+    <form action="main.js" method="post">
+     <fieldset>
+      <legend> Personal details</legend>
+        <label for="nm"></label>
+        <input id="nm" type="text" name="fname" placeholder="First name">
+        <label for="nm"> &nbsp;  &nbsp;  &nbsp; </label>
+        <input id="nm"  type="lname" name="lname" placeholder="Last name"><br><br>
+        <label for="nm"></label>
+        <input id="nm" type="text" name="fname" placeholder="Father's name">
+        <lable for="em">  &nbsp;  &nbsp;  &nbsp;  </lable>
+        <input id="em" type="Email" name="Email" placeholder="Email" ><br><br>
+        <label for="num"> </label>
+        <input id="num" type="number"  name="num" placeholder="phone no" >
+        <label for="dt">&nbsp;  &nbsp;  &nbsp; </label>
+        <input id="date"  type="date" name="date " placeholder="date"><br><br>
+        <label for="an"> </label>
+        <input id="an" type="number"  name="aadhar num" placeholder="Aadhar number" >
+        <label for="pn">&nbsp;  &nbsp;  &nbsp; </label>
+        <input id="pn" type="number"  name="pan card num" placeholder="Pan card number" ><br><br>
+        <label for="">Gender &nbsp;:</label>
+        <input type="radio" id="male" name="Gender">
+        <label  for="male">Male</lable> 
+        <input type="radio" for="female"  name="Gender">
+        <label for="">Female</lable>
+        <input type="radio" id="Other" name="Gender">
+        <label for="">Other</label>
+     </fieldset><br>
+     <fieldset>
+        <legend>Address details</legend>
+        <label for="ad"></label>
+        <input id="ad" type="ad" name="ad" placeholder=" Present Address">
+        <label for="pa">&nbsp;  &nbsp;  &nbsp;</label>
+        <input id="pa" type="pa" name="pa" placeholder="permanent Address"><br><br>
+        <label for="dt"></label>
+       <select the name="District">
+            <option value="">District</option>
+            <option value="Hanumakonda">Hanumakonda district </option>
+            <option value="suryapet">suryapet</option>
+            <option value="Khammam">Khammam</option>
+            <option value="Warangal">Warangal</option>
+            <option value="Warangal">Warangal</option>
+            <option value="Mahabubabad">Mahabubabad</option>
+            <option value="Adilabad">Adilabad</option>
+        </select>
+        <label for="st"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+       <select the name="state ">
+            <option value="">State</option>
+            <option value="Arunachal pradesh">Arunachal pradesh</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Gujarat">Gujarat</option>
+        </select><br><br>
+        <label for="cn"> </label>
+        <input id="cn" type="cn" name="country" placeholder="Country">
+        <label for="pc"> &nbsp; &nbsp; &nbsp; </label>
+        <input id="pc" type="pc" name="Pin Code" placeholder="Pin Code">
+    </fieldset><br><br>
+    <fieldset>
+        <legend>Vehicle details</legend>
+        <select>
+            <optgroup label="Two Wheeler">
+                <option value=""></option>
+             <option value="UNICON">UNICON</option>
+             <option value="KTM">KTM</option>
+             <option value="pulsur">pulsur</option>
+             <option value="duke">Duke</option>
+             <option value="Honda">Honda</option>
+             <option value="shakes">shakes</option>
+             <option value="Tvs">Tvs</option>           
+             </optgroup>
+            <optgroup label="four wheeler">
+                <option value="Ferrari">Ferrari</option>
+                <option value="BMW">BMW</option>
+                <option value="Benz">Benz</option>
+                <option value="Audi">Audi</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Tata punch">Tata punch</option>
+                <option value="Skoda">Skoda</option>
+                <option value="Ford">Ford</option>
+            </optgroup>
+        </select>
+    </fieldset><br><br>
+    
+    <button type="Register">Register</button>
+    </form>
+</body>
+</html>

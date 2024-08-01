@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms basic</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1><hr><br>
+    <form action="main.js" method="get">
+        <label for="nm"></label>
+        <input id="nm" type="text" name="fname" placeholder="First name">
+        <label for="nm"> &nbsp; </label>
+        <input id="nm"  type="text" name="lname" placeholder="Last name"><br><br>
+        <lable for="em">   </lable>
+        <input id="em" type="text" name="Email" placeholder="Email" ><br><br>
+        <lable for="pwd"></lable>
+        <input id="pwd" type="password"   name="password" placeholder="password" ><br><br>
+        <label for="date"></label>
+        <input id="date"  type="date" name="date of birth" ><br><br>
+        <label for="num"> </label>
+        <input id="num" type="number"  name="num" placeholder="phone no" ><br><br>
+        <label for="date">College:</label>
+        <select the name="college">
+            <option value=""></option>
+            <option value="Anurag Engineering college,kdd">Anurag Engineering college,kdd</option>
+            <option value="AVN college,hyd">AVN college,hyd</option>
+            <option value="CBIT college,hyd">CBIT college,hyd</option>
+            <option value="Vardhaman college,hyd">Vardhaman college,hyd</option>
+            <option value="Malla Reddy college,hyd">Malla Reddy college,hyd</option>
+        </select><br><br>
+        <label for="br">Branch  :</label>
+        <select the name="Branch">
+            <option value=""></option>
+            <option value="ECE">ECE</option>
+            <option value="CSE">CSE</option>
+            <option value="CIVIL">CIVIL</option>
+            <option value="MECH">MECH</option>
+            <option value="EEE">EEE</option>
+        </select> <br><br>
+        <label for="st">Choose a location:</label>
+        <select id="st">
+            <option></option>
+        <optgroup label="Telangana">
+            <option>kodad</option>
+            <option>Hyderabad</option>
+            <option>Suryapet</option>
+            <option>Nalgonda</option>
+         </optgroup>
+            <optgroup label="Andhra Pradesh">
+            <option>Nellore</option>
+            <option>Amaravati</option>
+            <option>Bangalore</option>
+         </optgroup>
+        </select><br><br>
+       <lable for="lan"><b>Languages Known:</b></lable><br><br>
+       <dd><input type="checkbox" id="Telugu" name="Telugu">
+       <lable for="lan">Telugu</lable>
+       <input type="checkbox" id="Hindi" name="Hindi">
+       <lable for="hi">Hindi</lable>
+       <input type="checkbox" id="English" name="English">
+       <lable for="en">English</lable>
+       <input type="checkbox" id="Tamil" name="Tamil">
+       <lable for="tl">Tamil</lable> <BR><br></dd>
+       <label for=""><b>Gender &nbsp;:</b></label>
+       <input   type="radio" id="male" name="Gender">
+        <lable for="male">Male</lable> 
+        <input type="radio" for="femail"  name="Gender">
+        <lable for="femail">Femail</lable><br><br><br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
